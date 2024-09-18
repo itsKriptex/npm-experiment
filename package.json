@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "vitest"
   },
   "author": "kriptex",
   "license": "ISC",
@@ -19,7 +20,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
-    "vite": "^5.4.6"
+    "vite": "^5.4.6",
+    "vitest": "^2.1.1"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.56.2",
